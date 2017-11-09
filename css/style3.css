@@ -1,0 +1,35 @@
+a.homepage:link, a.homepage:visited {
+  padding: 1px 10px 1px 10px;
+  color: #fff;
+  background: #ccffff;
+  border-radius: 3px;
+  border: 1px outset rgba(50,50,50,0.5);
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+/*p {font: italic 75%/125% "Comic Sans MS", cursive;}
+这条规则定义了字体的几个属性，使整个段落文本都变成斜体。
+
+字体大小设置为每个段落父元素字体大小的3/4，行高设置为125%
+（比常规的间隔稍大一些）。
+
+文本字体设置为 Comic Sans MS，假如该字体不被浏览器支持则
+使用默认字体：cursive。
+
+这条规则还把bold和small-caps这些效果给去掉了
+（设置它们的值为normal）。*/
+a.homepage:hover, a.homepage:focus, a.homepage:active {
+  background-color: #666;
+}
+
+/* 
+line-height 属性指定文本的行间距。行高用来指定行与行之间的距离。
+text-decoration就可以为文本指定其他风格，比如underline或line-through。
+你也可以把值设置成none，把这些风格取消掉。
+使用font-style: italic;指定文本为斜体;
+使用 font-weight: bold;指定文本加粗;
+使用 font-variant: small-caps;指定文本为小型大写字母;
+如果我们想单独设置某个效果失效，我们可以把其相应的属性
+设置为normal或inherit.*/

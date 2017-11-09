@@ -1,0 +1,14 @@
+li.open {list-style: upper-latin;}
+li.closed {list-style: upper-latin;}
+/*CSS 有三种标记样式：
+
+disc
+circle
+square*/
+/*用list-style 属性指定标记样式：
+
+decimal  1 2 3 
+lower-roman i ii iii
+upper-roman I II III
+lower-latin a b c d
+upper-latin A B C D */

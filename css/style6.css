@@ -1,0 +1,64 @@
+/* numbered paragraphs */
+ul, #haha {float: left;}
+h3 {clear: left;}
+/*h3 {
+  border-top: 1px solid gray;
+  text-align: center;
+}*/
+ul{ margin-left: 24px;}
+p{ margin-left: 24px;}
+ul,#haha
+{
+  border-style: solid;
+  border-color: pink;
+   padding-right:1em;
+}
+/*ul {border-style: solid ;
+	border-color: lightblue;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+ }*/
+body {border-style: solid ;
+	border-color: blue;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+ }
+h3 { margin-left: 24px;border-top: 1px solid gray;}
+body {counter-reset: num;}
+h3:before {
+	content:"(" counter(num,upper-latin)")";
+	counter-increment: num;
+	}
+li {list-style: lower-roman;}
+h3.numbered {counter-reset: mynum;}
+p.numbered:before {
+  content: counter(mynum) ": ";
+  counter-increment: mynum;
+  font-weight: bold;
+}
+
+#parent-div {
+  position: relative;
+  font: bold 200% sans-serif;
+}
+#forward, #back {
+  position: absolute;
+  margin:0px; /* no margin around the elements */
+  top: 0px; /* distance from top */
+  left: 0px; /* distance from left */
+}
+#forward {
+  color: blue;
+}
+#back {
+  color: red;
+}
+#yy {
+	position:fixed;
+	 top:0px;
+  right:0px;
+}
