@@ -1,0 +1,11 @@
+#id1{
+	height: 300px;
+	background: url(a.jpg);
+	background-size: 100%;
+}
+#id2{
+	padding-top: 1000px;
+	height: 300px;
+	background: url(a.jpg)no-repeat;
+	background-size: 100%;
+}

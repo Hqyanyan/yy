@@ -1,0 +1,22 @@
+a{line-height:50px; margin: 15px;
+	padding:5px 10px 5px 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: all .3s;
+	cursor:pointer;
+}
+a:hover{
+	box-shadow: 1px 4px 20px lightgray;
+}
+
+#p1{background-color:pink;color: white;}
+
+#p2{background-color:lightyellow;color: black;}
+
+#p3{background-color:lightblue;color: white;}
+
+#p4{background-color:red;color: white;}
+
+#p5{background-color:#CCCFFF;color: white;}
+
+#p6{background-color: purple;color:#CCCFFF;text-align: center;}
