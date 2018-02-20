@@ -16,21 +16,21 @@
 .a1{
 	background-image: url(../sc/wsgrxx/user.png);
 	background-repeat:no-repeat;
-	padding-left: 19%;
+	padding-left: 42px;
 }
 .a2{
 	background-image: url(../sc/wsgrxx/book.png);
 	background-repeat:no-repeat;
-	padding-left: 19%;
+	padding-left: 42px;
 }
 .z0{
-	margin-bottom: 4%;
+	margin-bottom: 20px;
 }
 .a1{
-	margin-bottom: 10%;
+	margin-bottom: 20px;
 }
 .d2{
-	width: 84.2667%;
+	width: 512px;
 	height: 75%;
 	margin: 0 auto;
 	background-color: white;
@@ -79,7 +79,7 @@
 }
 .l4{
 	background-image: url(../sc/wsgrxx/QQ.png);
-	margin-bottom: 26%;
+	margin-bottom: 100px;
 }
 .z3{
 	margin-left: 12%;
@@ -87,7 +87,7 @@
 	letter-spacing:1px;
 }
 .b1{
-	padding: 17% 0 25% 13%;
+	padding: 17% 0 160px 23%;
 	box-shadow:0 0 1px #000 inset;
 	border-radius: 30px;
 }
@@ -101,8 +101,8 @@
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	padding-top: 12%;
+	padding-top: 6%;
+	text-align: center;
 	color: white;
 	font-size: 16pt;
-	text-align: center;
 }
