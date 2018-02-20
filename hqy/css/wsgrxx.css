@@ -1,0 +1,122 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+/*img { max-width: 100%;}*/
+p{
+	font-weight: 100;
+}
+.back{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+	background-image: url(../sc/background.png);
+	background-repeat:no-repeat; background-size:100% 66.667%;-moz-background-size:100% 66.667%;
+	padding-top: 5%;
+}
+.z0{
+	text-align: center;
+}
+.z0,.z1,.z2{
+	color: white;
+	font-size: 15pt;
+}
+.z1,.z2{
+	display: inline-block;
+	font-size: 12pt;
+}
+.a0{
+	width: 220px;
+	margin: 0 auto;
+}
+.a1{
+	background-image: url(../sc/wsgrxx/user.png);
+	background-repeat:no-repeat;
+	padding-left: 19%;
+}
+.a2{
+	background-image: url(../sc/wsgrxx/book.png);
+	background-repeat:no-repeat;
+	padding-left: 19%;
+}
+.z0{
+	margin-bottom: 4%;
+}
+.a1{
+	margin-bottom: 10%;
+}
+.d2{
+	width: 84.2667%;
+	height: 75%;
+	margin: 0 auto;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 7.86665%;
+	border-radius: 30px;
+}
+.b0 input{
+	border:2px solid	#C0C0C0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 140pt;
+}
+.l1,.l2,.l3,.l4{
+	background-repeat:no-repeat;
+	padding-left: 15%;
+}
+.l1{
+	background-image: url(../sc/wsgrxx/phone.png);
+	margin-bottom: 8%;
+}
+.l2{
+	display: inline-block;
+	margin-bottom: 7%;
+}
+.l2>input{
+	width: 70pt;
+	margin-right: 12px;
+}
+.l2>button{
+	font-size: 10pt;
+	border:none;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(88,159,229);
+	padding: 7px 7px 4px 7px;
+}
+.l3{
+	background-image: url(../sc/wsgrxx/mail.png);
+	margin-bottom: 7%;
+}
+.l4{
+	background-image: url(../sc/wsgrxx/QQ.png);
+	margin-bottom: 26%;
+}
+.z3{
+	margin-left: 12%;
+	color:  rgb(88,159,229);
+	letter-spacing:1px;
+}
+.b1{
+	padding: 17% 0 25% 13%;
+	box-shadow:0 0 1px #000 inset;
+	border-radius: 30px;
+}
+.d3{
+	width: 150px;
+	height: 100px;
+	background-image: url(../sc/button.png);
+	background-repeat:no-repeat;
+	position: fixed;
+	bottom: 0;
+	left: 33%;
+	padding-top: 12%;
+	padding-left: 12%;
+	color: white;
+	font-size: 16pt;
+}

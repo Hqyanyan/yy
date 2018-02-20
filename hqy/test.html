@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文件上传</title>
+<!--
+注意：
+enctype="multipart/form-data";
+拼写不要写成
+enctype="multipart/from-data";
+重点：
+enctype="multipart/form-data"
+type="file"
+multiple 
+multiple 
+-->
+</head>
+<body>
+    <h2>寻物</h2>
+    <form action="addFindThing" method="post" enctype="multipart/form-data">
+        类型:<input type="text" name="tag" /><br />
+        标题:<input type="text" name="title" /><br />
+        联系信息:<input type="text" name="contact" /><br />
+        内容:<input type="text" name="detail" /><br />
+        文件:<input type="file" name="image[]" /><br />
+        文件:<input type="file" name="image[]" /><br />
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
